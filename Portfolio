@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Georgina Emefa Kumah</h1>
+            <p>Frontend Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>I'm a passionate frontend developer with a strong focus on creating beautiful and functional web applications. Currently, I'm studying at Chris Designx Academy and ALX. I have a background in entrepreneurship from Rhemas' Collection. I am a software engineer with a passion for building innovative solutions. This project has solidified my interest in pursuing a career in tech.</p>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>AfricaTech Rise</h3>
+            <p>Empowering Africa through Technology Technologies used; HTML, CSS, JavaScript, Django, Python, Challenges faced; Limited access to digital skills training, Outdated training content, High Costs, Limited digital literacy,Gender and geographical disparities, and how they were overcome; online platforms, Contextualized training content, Scholarships and subsidies, Basic digital literacy programs, Partnerships and outreaches </p>
+            <a href="#" target="_blank">https://github.com/BenTech5/AfriLearn.git</a>
+        </div>
+        <div class="project">
+            <h3>Quiz Master-MVP Specification</h3>
+            <p> This represents the overall application that users will interact with. It serves as the interface for users to engage with trivia questions and track their progress.
+ Technologies used; HTML/CSS is used for structuring and styling the web pages, while JavaScript (React) adds interactivity and dynamic behavior to the UI, Flask, a Python framework, is used to build the backend of the application. It handles routing, request handling, SQLite, a lightweight disk-based database, is chosen for its simplicity and suitability for small to medium-sized applications. It stores trivia questions, user information, and progress data, Open Trivia API to fetch trivia questions. This integration allows the application to access a vast collection of trivia questions across various categories, enriching the user experience, Challenges faced; The most difficult technical challenge I faced was implementing Facebook OAuth. I spent hours researching and debugging and how they were overcome; finally succeeded with the help of online resources and peer support.</p>
+            <a href="#" target="_blank">https://github.com/Adams009/Master_Quiz</a>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Responsive Design</li>
+            <li>Version Control (Git)</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container">
+        <h2> Contact: +233249948874</h2>
+        <p>Email: <a href="mailto:emefak77@gmail.com">emefak77@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/emefa-kumah-4b338524b/" target="_blank">your-profile</a></p>
+        <p>GitHub: <a href="https://github.com/GodsGiftLove" target="_blank">your-profile</a></p>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Georgina Emefa Kumah. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
